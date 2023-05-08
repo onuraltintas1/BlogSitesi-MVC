@@ -1,0 +1,17 @@
+C:\Users\altin\RiderProjects\Core\DAL\bin\Debug\net6.0\DAL.deps.json
+C:\Users\altin\RiderProjects\Core\DAL\bin\Debug\net6.0\DAL.runtimeconfig.json
+C:\Users\altin\RiderProjects\Core\DAL\bin\Debug\net6.0\DAL.dll
+C:\Users\altin\RiderProjects\Core\DAL\bin\Debug\net6.0\DAL.pdb
+C:\Users\altin\RiderProjects\Core\DAL\bin\Debug\net6.0\EntityLayer.dll
+C:\Users\altin\RiderProjects\Core\DAL\bin\Debug\net6.0\EntityLayer.pdb
+C:\Users\altin\RiderProjects\Core\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
+C:\Users\altin\RiderProjects\Core\DAL\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\altin\RiderProjects\Core\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
+C:\Users\altin\RiderProjects\Core\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
+C:\Users\altin\RiderProjects\Core\DAL\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\altin\RiderProjects\Core\DAL\obj\Debug\net6.0\DAL.csproj.CopyComplete
+C:\Users\altin\RiderProjects\Core\DAL\obj\Debug\net6.0\DAL.dll
+C:\Users\altin\RiderProjects\Core\DAL\obj\Debug\net6.0\refint\DAL.dll
+C:\Users\altin\RiderProjects\Core\DAL\obj\Debug\net6.0\DAL.pdb
+C:\Users\altin\RiderProjects\Core\DAL\obj\Debug\net6.0\DAL.genruntimeconfig.cache
+C:\Users\altin\RiderProjects\Core\DAL\obj\Debug\net6.0\ref\DAL.dll

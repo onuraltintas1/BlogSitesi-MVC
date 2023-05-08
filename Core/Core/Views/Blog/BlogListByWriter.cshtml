@@ -1,0 +1,40 @@
+@model System.Collections.Generic.List<EntityLayer.Concrete.Blog>
+
+@{
+    
+    Layout = "WriterLayout";
+}
+<h1>Yazarın Blogları</h1>
+<table class="table table-bordered">
+    <tr>
+        <th> # </th>
+        <th>Blog Başlığı</th>
+        <th>Oluşturulma Tarihi</th>
+        <th>Kategori</th>
+        <th>Durum</th>
+        <th>Sil</th>
+        <th>Düzenle</th>
+
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.BlogID</td>
+            <td>@item.Title</td>
+            <td>@item.Date</td>
+            <td>@item.Category.CategoryName</td>
+            <td>@if (@item.Status== false)
+                {
+                    <a>Pasif</a>
+                }
+                else
+                {
+                    <a>Aktif</a>
+                }
+                </td>
+            <td><a href="/Blog/DeletePost/@item.BlogID" class="btn btn-danger">Sil</a> </td>
+            <td><a href="/Blog/UpdatePost/@item.BlogID" class="btn btn-danger">Düzenle</a> </td>
+        </tr>
+    }
+</table>
+<a href="/Blog/BlogAdd" class="btn btn-gradient-primary">Yeni Blog Oluştur</a>

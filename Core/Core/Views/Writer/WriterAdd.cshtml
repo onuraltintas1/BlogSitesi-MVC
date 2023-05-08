@@ -1,0 +1,42 @@
+@model Core.Models.AddProfileImage
+
+@{
+    ViewBag.Title = "title";
+    Layout = "WriterLayout";
+}
+<form class="form-group" method="post" enctype="multipart/form-data">
+    @using (Html.BeginForm("WriterEditProfile", "Writer", FormMethod.Post))
+    {
+      <div class="col-12 grid-margin stretch-card">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Yazar Profil Bilgileri Düzenleme</h4>
+            <form class="forms-sample">
+              <div class="form-group">
+                <label for="exampleInputName1">Ad Soyad</label>
+                @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail3">Mail Adresi</label>
+                @Html.TextBoxFor(x => x.Mail, new { @class = "form-control" })
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword4">Şifre</label>
+                @Html.TextBoxFor(x => x.Password, new { @class = "form-control" })
+              </div>
+              <div class="form-group">
+                <label>Resim Ekle</label>
+                
+              </div>
+              <div class="form-group">
+                <label for="exampleTextarea1">Textarea</label>
+                @Html.TextAreaFor(x => x.About, 10, 3, new { @class = "form-control" })
+              </div>
+              <button type="submit" class="btn btn-gradient-primary mr-2">Submit</button>
+              <button class="btn btn-light">Cancel</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    }
+</form>
